@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Automation Suite">
+    
+    <test name="Login_Tests" preserve-order="true">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="Question_Repo_Tests" preserve-order="true">
+        <classes>
+            <class name="QuestionRepoTest"/>
+        </classes>
+    </test>
+    
+    <test name="Student_Management_Tests" preserve-order="true">
+        <classes>
+            <class name="ManageStudentTest"/>
+        </classes>
+    </test>
+    
+</suite>
